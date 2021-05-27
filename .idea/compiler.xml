@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Veterinary-Clinic-Application-Server" />
+        <module name="Veterinary-clinic-app-backend" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Veterinary-Clinic-Application-Server" target="1.8" />
+      <module name="Veterinary-clinic-app-backend" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Veterinary-Clinic-Application-Server" options="-parameters" />
+      <module name="Veterinary-clinic-app-backend" options="-parameters" />
     </option>
   </component>
 </project>
