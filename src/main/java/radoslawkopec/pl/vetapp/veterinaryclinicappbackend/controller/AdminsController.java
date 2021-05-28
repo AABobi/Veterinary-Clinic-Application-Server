@@ -53,6 +53,10 @@ public class AdminsController {
         });
     }
 
+    @PostMapping({"/delete"})
+    public void delete(){
+
+    }
     @PostMapping({"/changeDate"})
     public void changeDate(@RequestBody DateOfTheVisit dateOfTheVisit) {
         System.out.println(dateOfTheVisit);
